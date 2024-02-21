@@ -1,0 +1,22 @@
+
+#include <stdio.h>
+int main() {
+    int Subject;
+    Printf("Choose the no.1 if you pass the both Subject also get the 45RS\n");
+    Printf("choose the no.2 if you pass the math subject also get the 15RS\n");
+    Printf("Chose the no.3 if you pass the science subject also get the 15RS\n");
+    Scanf("%d",&Subject);
+    if ( subject ==1){
+    Printf("You are pass in both Subject.  So, you get the 45RS\n");
+    }
+    else if (Subject ==2) {
+    Printf("You are pass in math Subject. So,you get the 15Rs\n");
+    }
+    else if (Subject ==3){
+    Printf("you are pass the science Subject.So,you get the 15RS\n");
+    }
+    else {
+    Printf("You are fail So better luck next time \n");
+    }
+    return 0;
+    }

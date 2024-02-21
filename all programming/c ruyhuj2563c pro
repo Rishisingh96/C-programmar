@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{     int age;
+      Printf ("Enter your age \n");
+      Scanf ("%d" , &age);
+      Printf("You have entered %d as your age\n",age);
+      if( age>=18) {
+    
+      Printf("You can vote!")
+    } 
